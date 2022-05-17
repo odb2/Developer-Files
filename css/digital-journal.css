@@ -3,6 +3,10 @@
 	--question-marker-lighter: #FFFFFF;
 
 	--yellow-color:       #ffcc4b;
+	--blue-color: #0081a9;
+	--purple-color: #763fa1;
+	--pink-color: #fb3a68;
+	--green-color: #319391;
 
 	--button-enable-color:      #d19d00;
 	--button-active-color:      #76d5c6;
@@ -16,7 +20,7 @@ body {
 	font-size: 16px;
 	line-height: normal;
 	margin: 0;
-	background-image: url("../images/background.jpg");
+	/* background-image: url("/images/background.jpg"); */
 	background-size: cover;
 	overflow: hidden;
 	touch-action: none;
@@ -46,7 +50,7 @@ input, textarea {
 }
 
 /* ---- Layout ---- */
-.fixed-container{ max-width: 1280px; width: 1280px; height: 960px; margin: 0 auto; position: relative; }
+.fixed-container{ max-width: 1280px; width: 1280px; height: 960px; margin: 0 auto; position: relative;background-image: url("/images/background.jpg"); }
 
 .error-listing {
 	font-size: 1.5em;
@@ -93,14 +97,52 @@ ul.buttons {
 #account-button { background-color: var(--pink-color); }
 
 /* ---- Box styles ---- */
-.solid-blue-box,
-.solid-light-purple-box,
+.solid-blue-box{
+	position: absolute;
+	text-align: center;
+	letter-spacing: 0.015em;
+	border-radius: 8px;
+	color: #FFFFFF;
+	background-color: var(--blue-color);
+	margin-left: auto;
+	margin-right: auto;
+	display: inline;
+	padding: 15px;
+	left: 460px;
+    right: 0;
+    width: 55%;
+    height: 122px;
+    top: 415px;
+}
+.solid-light-purple-box{
+	position: absolute;
+	text-align: center;
+	letter-spacing: 0.015em;
+	border-radius: 8px;
+	color: #FFFFFF;
+	background-color: var(--purple-color);
+	margin-left: auto;
+	margin-right: auto;
+	display: inline;
+	left: 460px;
+    right: 0;
+    width: 60%;
+    height: 300px;
+    top: 635px;
+	padding: 25px;
+}
+
 .green-box {
 	position: absolute;
 	text-align: center;
 	letter-spacing: 0.015em;
 	border-radius: 8px;
 	color: #FFFFFF;
+	background-color: var(--green-color);
+	margin-left: auto;
+	margin-right: auto;
+	display: inline;
+	padding: 30px;
 }
 
 .solid-blue-box,
@@ -272,4 +314,22 @@ ul.buttons {
 @-ms-keyframes question-notice {
 	0%, 8% { -ms-transform: rotate(0deg) scale(1.0); color: var(--question-marker);}
 	4% { -ms-transform: rotate(360deg) scale(1.5); color: var(--question-marker-lighter); }
+}
+
+.sewer-image {
+	position: absolute;
+	top: 350px;
+	height: 240px;
+	border: 5px solid white;
+	left: 60px;
+	transform: rotate(5deg);
+	width: 370px;
+}
+
+.shark-image {
+	position: absolute;
+	top: 650px;
+	height: 260px;
+	left: 60px;
+	transform: rotate(-5deg);
 }
