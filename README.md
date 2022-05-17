@@ -1,5 +1,9 @@
 # Developer-Files
 
+## Project Info
+
+- Most of the changes were made inside index.php and digital-journal.css
+
 ## Deploy Instructions
 
 - install docker and enable wsl2
