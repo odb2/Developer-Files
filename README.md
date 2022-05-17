@@ -9,3 +9,5 @@
 - run `docker run -it --rm -p 80:80 -p 443:443 --name php8site -v "$PWD":/var/www/html php8`
 
 - open localhost
+
+<img src="/images/screenshot-definition-popover.png">
