@@ -16,6 +16,6 @@
 
 ## Example
 
-- Below is how it should look when the mouse is over the vocab which shoes the popup
+- Below is how it should look when the mouse is over the vocab which shows the popup
 
 <img src="/images/screenshot-definition-popover.png">
